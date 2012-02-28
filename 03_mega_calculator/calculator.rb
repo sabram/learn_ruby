@@ -7,6 +7,6 @@ def subtract (a, b)
   a-b
 end
 
-def sum arraaays
-#test
+def addArray
+
 end
