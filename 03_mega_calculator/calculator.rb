@@ -7,6 +7,6 @@ def subtract (a, b)
   a-b
 end
 
-def sum ar
+def sum arraaays
 #test
 end
