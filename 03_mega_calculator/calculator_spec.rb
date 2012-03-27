@@ -44,10 +44,17 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers" do
+    multiplies(2,3).should == 6
+  end
 
-  it "multiplies several numbers"
+  it "multiplies positive and negative numbers" do
+    multiplies(-4,3).should == -12
+  end
 
+  it "multiplies several numbers" do
+    multiplies(2, 3, 4).should == 24
+  end
 end
 
 # http://en.wikipedia.org/wiki/Factorial

@@ -45,6 +45,7 @@ describe "Performance Monitor" do
     Time.stub(:now).and_return { fake_time }
     measure(4) do
       fake_time += run_times.pop
+      puts "fake time is #{fake_time}"
     end.should == 6.5
   end
 
