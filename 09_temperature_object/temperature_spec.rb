@@ -70,6 +70,7 @@ describe Temperature do
 
   end
 
+
   # test-driving bonus:
   #
   # 1. make two class methods -- ftoc and ctof
